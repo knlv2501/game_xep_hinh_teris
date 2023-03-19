@@ -235,9 +235,6 @@ const GAME_OVER = [
 
 ]
 
-console.log(BRICK_LAYOUT[0][0][0][0]);
-console.log(BRICK_LAYOUT.lenght);
-
 if (typeof document !== undefined) {
     const canvas = document.getElementById('board');
     const ctx = canvas.getContext('2d');
@@ -452,7 +449,6 @@ if (typeof document !== undefined) {
             }
         }
     })
-    console.log(GAME_OVER[0].length);
 } else {
     console.log('you are on server not in browser');
 }
